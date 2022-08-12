@@ -2,10 +2,10 @@
 
     <main class="container">
     <h1 class="mt-5 mb-3">Crie sua conta</h1>
-        <form action="" method="post">
+        <form action="validar.php" method="post">
             <div class="my-2">
                 <label class="form-label">Nome</label>
-                <input type="text" name="Nome" class="form-control">
+                <input type="text" name="nome" class="form-control">
                 <p class="form-text">Preencha apenas o seu primeiro nome.</p>
             </div>
             <div class="my-2">
